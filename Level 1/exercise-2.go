@@ -2,25 +2,21 @@ package main
 
 import "fmt"
 
-/*
-Hands-on exercise #1
-Using the short declaration operator, ASSIGN these VALUES to VARIABLES with the IDENTIFIERS “x” and “y” and “z”
-42
-“James Bond”
-true
-Now print the values stored in those variables using
-a single print statement
-multiple print statements
+/*Use var to DECLARE three VARIABLES. The variables
+should have package level scope. Do not assign
+VALUES to the variables. Use the following IDENTIFIERS
+for the variables and make sure the variables are of
+the following TYPE (meaning they can store VALUES of that TYPE)
+
+print out the values for each identifier
 */
 
+//var x int
+var y string
+var z bool
+
 func main() {
-	x := 42
-	y := "James Bond"
-	z := true
-
-	fmt.Println(x, y, z)
-	fmt.Println(x)
-	fmt.Println(y)
-	fmt.Println(z)
-
+	fmt.Printf("%v,\n", x)
+	fmt.Printf("%v, \n", y)
+	fmt.Printf("%v, \n", z)
 }
