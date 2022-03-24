@@ -12,7 +12,7 @@ print out the values for each identifier
 */
 
 //var x int
-var y string
+//var y string
 var z bool
 
 func main() {
