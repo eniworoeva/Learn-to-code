@@ -11,9 +11,9 @@ import "fmt"
 //c. assign 42 to the VARIABLE “x” using the “=” OPERATOR
 //d. print out the value of the variable “x”
 
-//type oreva int
+type oreva int
 
-//var x oreva
+var x oreva
 
 func main() {
 	fmt.Println(x)
