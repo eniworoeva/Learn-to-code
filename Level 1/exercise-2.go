@@ -11,8 +11,8 @@ the following TYPE (meaning they can store VALUES of that TYPE)
 print out the values for each identifier
 */
 
-//var x int
-//var y string
+var x int
+var y string
 var z bool
 
 func main() {
